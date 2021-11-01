@@ -1,6 +1,6 @@
 /autostart
 /Code
-/Code-OSS
+/Code - OSS
 /code-oss
 /configstore
 /dconf
@@ -35,4 +35,4 @@
 /xfce4
 /xinit
 /yay
-
+/node-modules

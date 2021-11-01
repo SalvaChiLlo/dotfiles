@@ -1,6 +1,0 @@
-{
-    "security.workspace.trust.emptyWindow": false,
-    "workbench.colorTheme": "Default Dark+",
-    "security.workspace.trust.banner": "never",
-    "security.workspace.trust.enabled": false
-}
