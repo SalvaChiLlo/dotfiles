@@ -154,4 +154,4 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 #echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/salvachll/.zprofile
 #eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
+neofetch
