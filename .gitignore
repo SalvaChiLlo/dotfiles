@@ -1,5 +1,15 @@
 pavucontrol.ini
 mimeapps.list
+appimagelauncher.cfg
+kactivitymanagerdrc
+kglobalshortcutsrc
+monitors.xml
+monitors.xml~
+okularpartrc
+okularrc
+QtProject.conf
+Trolltech.conf
+
 
 /autostart
 /Code
@@ -35,6 +45,52 @@ mimeapps.list
 /xfce4
 /yay
 /node-modules
+/calibre
+/cef_user_data
+/Cypress
+/Dharkael
+/discord
+/draw.io
+/enchant
+/eog
+/Ferdi
+/Franz
+/freerdp
+/GitKraken
+/gnome-control-center
+/gnome-session
+/Google
+/ibus
+/jgit
+/kdeconnect
+/libreoffice
+/lutris
+/menus
+/Microsoft
+**/Microsoft Teams - Preview/
+/microsoft-edge-beta
+**/MongoDB Compass/
+/notion-desktop
+/nvim
+/obs-studio
+/ookla
+/Postman
+/qBittorrent
+/remmina
+/session
+/Slack
+/systemd
+/teams
+/Todoist
+/ulauncher
+/update-notifier
+**/Virtual Cable S.L.U./
+/VirtualBox
+/VisualParadigm
+/vscode-sqltools
+/yelp
+
+
 # Logs
 logs
 *.log

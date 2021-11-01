@@ -1,0 +1,27 @@
+*customization:	-color
+St.color0:	#1F2430
+St.color1:	#FF3333
+St.color10:	#BAE67E
+St.color11:	#FFE6B3
+St.color12:	#73D0FF
+St.color13:	#D4BFFF
+St.color14:	#5CCFE6
+St.color15:	#FFFFFF
+St.color2:	#A6CC70
+St.color3:	#FFD580
+St.color4:	#77A8D9
+St.color5:	#B48EAD
+St.color6:	#95E6CB
+St.color7:	#CBCCC6
+St.color8:	#BFBAB0
+St.color9:	#FF3333
+St.font:	JetBrains Mono:pixelsize=16:antialias=true:autohint=true
+Xft.dpi:	70
+i3-wm.bar.position:	top
+gnome.wallpaper:	/usr/share/backgrounds/15.jpg
+gnome.terminal.scrollbar: true
+#i3-wm.program.lock: /usr/bin/i3lock-fancy
+#i3-wm.workspace.01.name: 1: Terminal
+#i3-wm.workspace.02.name: 2: Web
+#i3-wm.workspace.03.name: 3: Chat
+#i3-wm.program.launcher.app: ulauncher
