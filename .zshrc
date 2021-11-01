@@ -1,5 +1,11 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
 source $HOME/.oh-my-zsh/plugins/calc/calc.plugin.zsh
-
+#########################################################################
 # My Aliases
 alias mnt-omv="sshfs root@omv.local:/srv/dev-disk-by-uuid-d0f13dcc-8656-4156-b7b4-0984cd621f4b ~/Documents/mnt_point/OMV/"
 alias tsu="sudo tailscale up"
@@ -20,12 +26,6 @@ export PATH=/usr/lib/jvm/java-8-openjdk-amd64/bin:$PATH
 if [ -d "$HOME/.bookmarks" ]; then
     export CDPATH=".:$HOME/.bookmarks:/"
     alias goto="cd -P"
-fi
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
 # If you come from bash you might have to change your $PATH.
@@ -154,4 +154,3 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 #echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/salvachll/.zprofile
 #eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-neofetch
