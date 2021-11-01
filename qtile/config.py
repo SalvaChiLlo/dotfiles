@@ -75,6 +75,8 @@ keys = [
 
     # Toggle between different layouts as defined below
     Key([mod], "f", lazy.next_layout(), desc="Toggle between layouts"),
+    Key([mod, "shift"], "f", lazy.window.toggle_floating(),
+        desc="Toggle between layouts"),
     Key([mod, "shift"], "q", lazy.window.kill(), desc="Kill focused window"),
 
     Key([mod, "control"], "r", lazy.restart(), desc="Restart Qtile"),
@@ -83,7 +85,8 @@ keys = [
         desc="Spawn a command using a prompt widget"),
 
     # App launcher ROFI
-    Key([mod], "space", lazy.spawn('rofi -modi drun,run -show drun -show-icons'), desc="Launch terminal"),
+    Key([mod], "space", lazy.spawn(
+        'rofi -modi drun,run -show drun -show-icons'), desc="Launch terminal"),
     Key([mod, "control"], "space", lazy.spawn(
         'rofi -show'), desc="Launch terminal"),
     # Volumne Control
@@ -120,7 +123,7 @@ for i in groups:
 
 layouts = [
     layout.Columns(
-        border_focus_stack=['#d75f5f', '#8f3d3d'], 
+        border_focus_stack=['#d75f5f', '#8f3d3d'],
         border_width=1,
         margin=5
     ),
