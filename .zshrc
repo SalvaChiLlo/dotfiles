@@ -112,7 +112,6 @@ plugins=(
 	npm
 	nvm
 	ssh-agent
-	fzf
 	calc
 )
 
