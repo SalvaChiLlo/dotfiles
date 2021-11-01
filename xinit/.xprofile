@@ -1,0 +1,9 @@
+xrandr --output Virtual1 --primary --mode 1366x706 --pos 1920x1038 --rotate normal --output Virtual2 --mode 1920x1038 --pos 1366x0 --rotate normal --output Virtual3 --off --output Virtual4 --off --output Virtual5 --off --output Virtual6 --off --output Virtual7 --off --output Virtual8 --off &
+setxkbmap es &
+nm-applet &
+udiskie -t &
+#volumeicon &
+cbatticon &
+feh --bg-scale /usr/share/backgrounds/15.jpg
+flameshot &
+picom &

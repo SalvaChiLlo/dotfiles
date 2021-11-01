@@ -18,7 +18,6 @@ mimeapps.list
 /gitahead.com
 /goa-1.0
 /google-chrome
-/gtk-3.0
 /htop
 /Hyper
 /Insync
@@ -26,9 +25,7 @@ mimeapps.list
 /nautilus
 /neofetch
 /Nextcloud
-/picom
 /pulse
-/qtile
 /ranger
 /rofi
 /spotify
@@ -36,7 +33,6 @@ mimeapps.list
 /vlc
 /volumeicon
 /xfce4
-/xinit
 /yay
 /node-modules
 # Logs

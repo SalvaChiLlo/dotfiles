@@ -1,0 +1,7 @@
+[user]
+	email = salvachll@gmail.com
+	name = SalvaChLl
+[pull]
+	ff = false
+[credential]
+	helper = store
